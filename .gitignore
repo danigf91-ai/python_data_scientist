@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables y secretos
+.env
+.env.*
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Material original de Coursera
+01_notebooks/**/originals/
+
+# Datos originales o sensibles
+03_data/raw/*
+!03_data/raw/README.md
